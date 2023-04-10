@@ -1,0 +1,14 @@
+<style>
+  body {
+    background-color: lightblue;
+  }
+img {
+        object-fit: cover
+        border-radius: 15px;
+        width: 70%;
+        height: 70%;
+    }
+label {
+        color: darkslateblue;
+    }
+</style>

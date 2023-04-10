@@ -1,0 +1,33 @@
+
+<style>
+  body {
+    background-color: lightblue;
+  }
+img {
+        object-fit: cover
+        border-radius: 15px;
+        width: 70%;
+        height: 70%;
+    }
+input {
+        color: darkslateblue;
+    }
+</style>
+
+<form action="instercustomer.php" method="POST">
+    customer id:
+    <input type="text" id="C_id" name="C_id">
+        customer name:
+    <input type="text" id="C_name" name="C_name">
+        Product purchased by customer:
+    <input type="text" id="Product_customer" name="Product_customer"><br>
+        customer gender :
+        female:<input type="checkbox" id="C_gender" name="C_gender" value="female">
+       male: <input type="checkbox" id="C_gender" name="C_gender" value="male">
+            customer age:
+        <input type="text" id="C_age" name="C_age">
+   
+   
+   
+   <input type="submit" value="Submit">
+</form> 
